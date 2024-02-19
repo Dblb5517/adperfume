@@ -1,0 +1,23 @@
+.rightTop{
+    display: flex;
+    align-items: center;
+
+    div{
+        width: 50px;
+        height: 35px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    .search{
+        background-image: url('./../../assets/images/MagnifyingGlass.png');
+    }
+    .person{
+        background-image: url('./../../assets/images/User.png');
+    }
+    .heart{
+        background-image: url('./../../assets/images/Heart.png');
+    }
+    .bag{
+        background-image: url('../../assets/images/Handbag.png');
+    }
+}

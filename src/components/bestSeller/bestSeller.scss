@@ -1,0 +1,13 @@
+.bestSeller{
+    img{
+        height: 350px;
+    }
+    .bestItem{
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;  
+        gap: 5px;  
+        font-size: larger;
+    }
+}

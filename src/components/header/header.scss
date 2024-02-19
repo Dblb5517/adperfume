@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    
+    .logoHeader{
+        height: 100px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+}

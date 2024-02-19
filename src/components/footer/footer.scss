@@ -1,0 +1,21 @@
+.footer{
+    background: linear-gradient(135deg, #101010, #1c1c1c, #101010);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Kalam', cursive;;
+        .footerLeft{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            align-items: flex-start;
+            justify-content: space-around;
+            img{
+                height: 85px;
+            }
+        }
+        .footerRight{
+
+        }
+}
