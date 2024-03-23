@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/adperfume/static/css/main.d43f7884.css",
-    "main.js": "/adperfume/static/js/main.502df130.js",
-    "static/js/787.c5e70117.chunk.js": "/adperfume/static/js/787.c5e70117.chunk.js",
-    "static/media/lavtxuduxi.png": "/adperfume/static/media/lavtxuduxi.40dc48d7e317cfdad2b5.png",
-    "static/media/chanel n5.png": "/adperfume/static/media/chanel n5.3c096537316e54968f43.png",
-    "static/media/terevduxi.png": "/adperfume/static/media/terevduxi.54ccbaaae73342649620.png",
-    "static/media/gucci_shmuchi.png": "/adperfume/static/media/gucci_shmuchi.96dbd0a3c9e3de059a59.png",
-    "static/media/perfume.png": "/adperfume/static/media/perfume.33a855a9002961b76e85.png",
-    "static/media/kurkdjian.webp": "/adperfume/static/media/kurkdjian.fa14dee9c53f90fe9ae4.webp",
-    "static/media/louis.webp": "/adperfume/static/media/louis.f7989cd3d37aaea491d4.webp",
-    "static/media/louisssss.webp": "/adperfume/static/media/louisssss.f49cad5f241236bbaf08.webp",
-    "static/media/logo.png": "/adperfume/static/media/logo.325388751398d680b7cf.png",
-    "static/media/revicons.eot": "/adperfume/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/adperfume/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/adperfume/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/adperfume/index.html",
-    "main.d43f7884.css.map": "/adperfume/static/css/main.d43f7884.css.map",
-    "main.502df130.js.map": "/adperfume/static/js/main.502df130.js.map",
-    "787.c5e70117.chunk.js.map": "/adperfume/static/js/787.c5e70117.chunk.js.map"
+    "main.css": "/static/css/main.a4e3764c.css",
+    "main.js": "/static/js/main.3d40deda.js",
+    "static/js/787.c5e70117.chunk.js": "/static/js/787.c5e70117.chunk.js",
+    "static/media/lavtxuduxi.png": "/static/media/lavtxuduxi.40dc48d7e317cfdad2b5.png",
+    "static/media/chanel n5.png": "/static/media/chanel n5.3c096537316e54968f43.png",
+    "static/media/terevduxi.png": "/static/media/terevduxi.54ccbaaae73342649620.png",
+    "static/media/gucci_shmuchi.png": "/static/media/gucci_shmuchi.96dbd0a3c9e3de059a59.png",
+    "static/media/perfume.png": "/static/media/perfume.33a855a9002961b76e85.png",
+    "static/media/kurkdjian.webp": "/static/media/kurkdjian.fa14dee9c53f90fe9ae4.webp",
+    "static/media/louis.webp": "/static/media/louis.f7989cd3d37aaea491d4.webp",
+    "static/media/louisssss.webp": "/static/media/louisssss.f49cad5f241236bbaf08.webp",
+    "static/media/logo.png": "/static/media/logo.325388751398d680b7cf.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.a4e3764c.css.map": "/static/css/main.a4e3764c.css.map",
+    "main.3d40deda.js.map": "/static/js/main.3d40deda.js.map",
+    "787.c5e70117.chunk.js.map": "/static/js/787.c5e70117.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43f7884.css",
-    "static/js/main.502df130.js"
+    "static/css/main.a4e3764c.css",
+    "static/js/main.3d40deda.js"
   ]
 }
