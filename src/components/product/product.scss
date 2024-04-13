@@ -1,0 +1,15 @@
+.product{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    img{
+        height: 250px;
+        border-radius: 40px;
+        transition: 0.2s linear;
+        &:hover{
+          transform: scale(1.2);  
+        }
+    }
+}
