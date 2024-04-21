@@ -1,9 +1,8 @@
 import "./product.scss";
-import chanel from "./../../assets/images/chanel n5.png";
 
 const Product = ({ item }) => {
   return (
-    <a target="_blank" href={item.link}>
+    <a target="_blank" rel="noreferrer" href={item.link}>
       <div className="product">
         <img src={item.img} alt="chanel" />
         <h1>{item.name}</h1>

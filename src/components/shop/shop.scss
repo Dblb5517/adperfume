@@ -5,3 +5,14 @@
     gap: 2rem;
     padding-top: 50px;
 }
+.pagination .active > .page-link{
+    background-color: goldenrod !important;
+    color: black !important;
+    border: goldenrod;
+}
+.pagination > .page-link{
+    color: black;
+}
+.pagination{
+    margin: 30px 0 !important;
+}
