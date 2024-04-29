@@ -12,3 +12,10 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .menu{
+        order: 2;
+        gap: 2rem;
+    }
+}

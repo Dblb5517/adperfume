@@ -9,3 +9,14 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 2px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .logoHeader{
+            height: 50px;
+        }
+    }
+}
