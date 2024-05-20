@@ -1,24 +1,29 @@
-import { useEffect } from 'react';
-import './rightTop.scss';
-import { useState } from 'react';
+import { useEffect } from "react";
+import "./rightTop.scss";
+import { useState } from "react";
 
-const RightTop = ({setSearchValue}) => {
+const RightTop = ({ setSearchValue }) => {
+  const [permanent, setPermanent] = useState("");
 
-  const [permanent, setPermanent] = useState('');
-
-  useEffect(()=>{
-    let t = setTimeout(()=>{
+  useEffect(() => {
+    let t = setTimeout(() => {
       setSearchValue(permanent);
-    },500);
+    }, 500);
     return () => clearTimeout(t);
-  },[permanent])
+  }, [permanent]);
 
   return (
-    <div className='rightTop'>
-        <input type="search" name="" id="" value={permanent} onChange={(e)=>setPermanent(e.target.value)} />
-        <div className="search"></div>
+    <div className="rightTop">
+      <input
+        type="search"
+        name=""
+        id=""
+        value={permanent}
+        onChange={(e) => setPermanent(e.target.value)}
+      />
+      <div className="search"></div>
     </div>
-  )
-}
+  );
+};
 
 export default RightTop;
