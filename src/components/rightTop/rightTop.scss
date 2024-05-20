@@ -1,6 +1,7 @@
 .rightTop{
     display: flex;
     align-items: center;
+    gap:10px;
 
     div{
         width: 50px;
@@ -10,5 +11,14 @@
     }
     .search{
         background-image: url('./../../assets/images/MagnifyingGlass.png');
+    }
+    input{
+        border-radius: 9px;
+        height: 30px;
+        text-indent: 10px;
+        font-weight: 600;
+        border-color: white;
+        background: black;
+        color: white;
     }
 }

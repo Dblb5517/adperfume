@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import ResponsivePagination from "react-responsive-pagination";
 import "react-responsive-pagination/themes/classic.css";
 
-const Shop = () => {
+const Shop = ({searchValue}) => {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(data.length / 20);
 
@@ -17,7 +17,11 @@ const Shop = () => {
   return (
     <>
       <div className="shop">
-        {data.slice((currentPage - 1) * 20, currentPage * 20).map((item) => {
+        {data
+        .filter((item)=>{
+          return item.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase());
+        })
+        .slice((currentPage - 1) * 20, currentPage * 20).map((item) => {
           return <Product item={item} />;
         })}
       </div>
